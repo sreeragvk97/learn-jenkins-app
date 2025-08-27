@@ -23,8 +23,8 @@ pipeline {
             steps {
                 sh """
                     ls -la
-                    if [ -f "build/index.html" ]; then
-                    echo "yes" else echo "no"
+                    if [ -f build/index.html ]; then
+                    echo "yes"; else echo "no";
                     fi
                 """
             }
