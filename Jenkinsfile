@@ -26,6 +26,7 @@ pipeline {
                     if [ -f build/index.html ]; then
                     echo "yes"; else echo "no";
                     fi
+                    npm test
                 """
             }
         }
